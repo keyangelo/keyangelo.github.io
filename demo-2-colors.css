@@ -14,9 +14,7 @@
 	}
 	
 	
-		/*
-		Primary Color
-	*/
+	
 
 	.preloader .spinner .double-bounce1,
 	.preloader .spinner .double-bounce2,
@@ -254,17 +252,13 @@
 		border-top-color: #ff9800;
 	}
 	
-		/*
-		Heading Color
-	*/
+	
 
 	.content .title {
 		color: #323232;
 	}
 	
-		/*
-		Text Color
-	*/
+	
 
 	body {
 		color: #646464;
@@ -274,9 +268,7 @@
 	
 	
 	
-		/*
-		Classic Version Style
-	*/
+	
 
 	.service-items .service-item .icon {
 		background: -moz-linear-gradient(-45deg, rgba(255, 152, 0, 0.15) 0%, rgba(255, 152, 0, 0.01) 100%) !important;
@@ -287,9 +279,7 @@
 		color: #ff9800 !important;
 	}
 	
-		/*
-		Classic Version Style
-	*/
+	
 	.card-started:after,
 	.card-started .profile .image:before,
 	.content-sidebar .profile .image:before,
@@ -301,9 +291,7 @@
 		background: linear-gradient(135deg, rgba(255, 152, 0, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%);
 	}
 	
-		/*
-		Dark Version Style
-	*/
+	
 	.card-started:after,
 	.card-started .profile .image:before,
 	.content-sidebar .profile .image:before,
