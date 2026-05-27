@@ -1,0 +1,202 @@
+<svg width="100%" viewBox="0 0 680 480" role="img" xmlns="http://www.w3.org/2000/svg">
+<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo Digital.AI — Tableau d'art Michel-Ange IA</title>
+<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Tableau d'art style fresque Renaissance représentant deux mains se touchant du bout des doigts, l'une humaine tracée à la plume dorée, l'autre digitale en cyan, sur fond de ciel sfumato. Le logotype Digital.AI est intégré en bas.</desc>
+
+<defs>
+  <linearGradient id="skyTop" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0a0618"/>
+    <stop offset="45%" stop-color="#1a0a2e"/>
+    <stop offset="100%" stop-color="#2d1052"/>
+  </linearGradient>
+  <linearGradient id="cloudL" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#3a1a60" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#3a1a60" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#3a1a60" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="glowC" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#00f0ff"/>
+    <stop offset="100%" stop-color="#7000ff"/>
+  </linearGradient>
+  <linearGradient id="goldG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f0d080"/>
+    <stop offset="100%" stop-color="#b8860b"/>
+  </linearGradient>
+  <linearGradient id="frameG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#c8a84b"/>
+    <stop offset="40%" stop-color="#f0d080"/>
+    <stop offset="100%" stop-color="#8b6914"/>
+  </linearGradient>
+  <linearGradient id="handFlesh" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#c8a070"/>
+    <stop offset="100%" stop-color="#8b5e3c"/>
+  </linearGradient>
+  <radialGradient id="touchGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.9"/>
+    <stop offset="40%" stop-color="#7000ff" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="nebulaR" cx="50%" cy="40%" r="60%">
+    <stop offset="0%" stop-color="#7000ff" stop-opacity="0.35"/>
+    <stop offset="60%" stop-color="#3a0080" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="frameClip">
+    <rect x="28" y="20" width="624" height="390" rx="6"/>
+  </clipPath>
+</defs>
+
+<!-- ═══ CADRE TABLEAU — bord extérieur ═══ -->
+<rect x="18" y="10" width="644" height="410" rx="8" fill="url(#frameG)" stroke="#6b4c0a" stroke-width="1.5" style="stroke:rgb(107, 76, 10);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="24" y="16" width="632" height="398" rx="6" fill="#0a0618" stroke="#c8a84b" stroke-width="0.6" style="fill:rgb(10, 6, 24);stroke:rgb(200, 168, 75);color:rgb(255, 255, 255);stroke-width:0.6px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="28" y="20" width="624" height="390" rx="5" fill="url(#skyTop)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Filet intérieur doré du cadre -->
+<rect x="32" y="24" width="616" height="382" rx="4" fill="none" stroke="#c8a84b" stroke-width="0.4" opacity="0.6" style="fill:none;stroke:rgb(200, 168, 75);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- ═══ FOND — ciel sfumato nocturne ═══ (tout clipé dans le cadre) -->
+<g clip-path="url(#frameClip)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+
+  <!-- Nébuleuse violette centrale -->
+  <ellipse cx="340" cy="190" rx="260" ry="180" fill="url(#nebulaR)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Nuages sfumato gauche -->
+  <ellipse cx="120" cy="160" rx="140" ry="70" fill="url(#cloudL)" opacity="0.5" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <ellipse cx="80" cy="200" rx="100" ry="50" fill="#2a0a50" opacity="0.3" style="fill:rgb(42, 10, 80);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Nuages sfumato droite -->
+  <ellipse cx="560" cy="150" rx="130" ry="65" fill="#2a1050" opacity="0.45" style="fill:rgb(42, 16, 80);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <ellipse cx="590" cy="210" rx="90" ry="40" fill="#1a0830" opacity="0.3" style="fill:rgb(26, 8, 48);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Étoiles — petits points blancs -->
+  <circle cx="80" cy="45" r="0.8" fill="#fff" opacity="0.7" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="150" cy="30" r="1" fill="#fff" opacity="0.8" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="230" cy="55" r="0.6" fill="#fff" opacity="0.5" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="320" cy="28" r="0.9" fill="#fff" opacity="0.6" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="410" cy="38" r="0.7" fill="#fff" opacity="0.7" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="480" cy="32" r="1" fill="#fff" opacity="0.6" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="560" cy="48" r="0.8" fill="#fff" opacity="0.5" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="620" cy="35" r="0.7" fill="#fff" opacity="0.7" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="100" cy="100" r="0.5" fill="#fff" opacity="0.4" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="200" cy="80" r="0.6" fill="#fff" opacity="0.4" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="600" cy="90" r="0.5" fill="#fff" opacity="0.4" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="640" cy="120" r="0.7" fill="#c8a84b" opacity="0.5" style="fill:rgb(200, 168, 75);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="60" cy="140" r="0.6" fill="#c8a84b" opacity="0.4" style="fill:rgb(200, 168, 75);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ═══ HALO DE CONTACT central — le point divin ═══ -->
+  <circle cx="340" cy="188" r="36" fill="url(#touchGlow)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="340" cy="188" r="18" fill="#00f0ff" opacity="0.25" style="fill:rgb(0, 240, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="340" cy="188" r="8" fill="#00f0ff" opacity="0.7" style="fill:rgb(0, 240, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="340" cy="188" r="4" fill="#fff" opacity="0.95" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.95;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Rayons de lumière partant du point de contact -->
+  <line x1="340" y1="188" x2="340" y2="95" stroke="#00f0ff" stroke-width="0.6" opacity="0.3" style="fill:rgb(0, 0, 0);stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.6px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="340" y1="188" x2="410" y2="120" stroke="#00f0ff" stroke-width="0.4" opacity="0.2" style="fill:rgb(0, 0, 0);stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.2;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="340" y1="188" x2="270" y2="120" stroke="#00f0ff" stroke-width="0.4" opacity="0.2" style="fill:rgb(0, 0, 0);stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.2;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="340" y1="188" x2="420" y2="188" stroke="#7000ff" stroke-width="0.4" opacity="0.15" style="fill:rgb(0, 0, 0);stroke:rgb(112, 0, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.15;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="340" y1="188" x2="260" y2="188" stroke="#7000ff" stroke-width="0.4" opacity="0.15" style="fill:rgb(0, 0, 0);stroke:rgb(112, 0, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.15;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ═══ MAIN GAUCHE — humaine, style plume sanguine Renaissance ═══ -->
+  <!-- Paume et bras gauche arrivant de la gauche, doigt tendu vers le centre -->
+  <path d="M 40 290 C 60 270 90 255 120 245 C 150 235 175 232 195 228&#10;           C 210 224 218 220 224 214 C 230 208 232 200 235 194&#10;           C 236 190 237 187 238 186 C 239 185 340 188 340 188" fill="none" stroke="url(#handFlesh)" stroke-width="18" stroke-linecap="round" opacity="0.15" style="fill:none;color:rgb(255, 255, 255);stroke-width:18px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.15;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Avant-bras chair -->
+  <path d="M 40 295 C 80 275 130 258 175 245 C 205 237 225 230 235 218&#10;           C 238 213 240 204 241 196 C 242 192 341 189 341 189" fill="url(#handFlesh)" stroke="#8b5e3c" stroke-width="0.8" opacity="0.85" style="stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Paume gauche -->
+  <path d="M 195 242 C 210 238 222 232 230 224 C 235 218 238 210 240 202&#10;           C 241 198 241 194 241 190 L 342 190&#10;           L 342 194 C 310 196 290 200 275 210 C 262 218 250 228 240 238&#10;           C 232 245 218 250 205 252 Z" fill="url(#handFlesh)" stroke="#8b5e3c" stroke-width="0.7" opacity="0.9" style="stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.7px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Doigts gauches repliés (fond de paume visible) -->
+  <path d="M 210 242 C 215 235 218 228 218 222 C 218 218 216 215 214 215 C 212 215 210 218 210 224 Z" fill="#c8905a" stroke="#8b5e3c" stroke-width="0.5" opacity="0.7" style="fill:rgb(200, 144, 90);stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M 222 238 C 226 230 228 222 228 216 C 228 212 226 209 224 209 C 222 209 220 212 220 217 Z" fill="#c8905a" stroke="#8b5e3c" stroke-width="0.5" opacity="0.7" style="fill:rgb(200, 144, 90);stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M 233 232 C 236 224 237 216 237 210 C 237 206 235 204 233 204 C 231 204 230 207 230 212 Z" fill="#c8905a" stroke="#8b5e3c" stroke-width="0.5" opacity="0.7" style="fill:rgb(200, 144, 90);stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Index gauche tendu vers le centre -->
+  <path d="M 241 196 C 260 194 290 191 310 189 C 325 188 335 188 340 188" fill="none" stroke="#c8905a" stroke-width="10" stroke-linecap="round" opacity="0.9" style="fill:none;stroke:rgb(200, 144, 90);color:rgb(255, 255, 255);stroke-width:10px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M 241 196 C 260 194 290 191 310 189 C 325 188 335 188 340 188" fill="none" stroke="#8b5e3c" stroke-width="0.8" stroke-linecap="round" style="fill:none;stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Rides et veines sur la main gauche -->
+  <path d="M 220 238 C 228 230 234 222 238 212" fill="none" stroke="#8b5e3c" stroke-width="0.4" opacity="0.4" style="fill:none;stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M 215 244 C 222 236 227 228 230 218" fill="none" stroke="#8b5e3c" stroke-width="0.3" opacity="0.3" style="fill:none;stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Hachures sfumato style sanguine sur l'avant-bras -->
+  <line x1="100" y1="265" x2="115" y2="278" stroke="#8b5e3c" stroke-width="0.3" opacity="0.25" style="fill:rgb(0, 0, 0);stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="115" y1="260" x2="130" y2="272" stroke="#8b5e3c" stroke-width="0.3" opacity="0.25" style="fill:rgb(0, 0, 0);stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="130" y1="255" x2="144" y2="267" stroke="#8b5e3c" stroke-width="0.3" opacity="0.25" style="fill:rgb(0, 0, 0);stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="145" y1="250" x2="158" y2="262" stroke="#8b5e3c" stroke-width="0.3" opacity="0.2" style="fill:rgb(0, 0, 0);stroke:rgb(139, 94, 60);color:rgb(255, 255, 255);stroke-width:0.3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.2;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ═══ MAIN DROITE — digitale/IA, dessinée en cyan filaire ═══ -->
+  <!-- Avant-bras droit arrivant de la droite -->
+  <path d="M 640 295 C 600 275 550 258 505 245 C 475 237 455 230 445 218&#10;           C 442 213 440 204 439 196 C 438 192 339 189 339 189" fill="none" stroke="#00f0ff" stroke-width="12" stroke-linecap="round" opacity="0.12" style="fill:none;stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:12px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.12;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <path d="M 640 295 C 595 272 545 256 500 244 C 468 235 447 228 440 218&#10;           C 437 213 436 204 436 196 C 436 192 338 189 338 189" fill="none" stroke="#00c8d4" stroke-width="1.2" stroke-linecap="round" opacity="0.7" style="fill:none;stroke:rgb(0, 200, 212);color:rgb(255, 255, 255);stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Paume digitale droite, style wireframe -->
+  <path d="M 485 240 C 470 236 458 230 450 222 C 445 216 442 208 440 200&#10;           C 439 196 439 192 439 190 L 338 190&#10;           L 338 194 C 370 196 390 200 405 210 C 418 218 430 228 440 238&#10;           C 448 245 462 250 475 252 Z" fill="none" stroke="#00f0ff" stroke-width="0.9" opacity="0.7" style="fill:none;stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.9px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Remplissage semi-transparent paume droite -->
+  <path d="M 485 240 C 470 236 458 230 450 222 C 445 216 442 208 440 200&#10;           C 439 196 439 192 439 190 L 338 190&#10;           L 338 194 C 370 196 390 200 405 210 C 418 218 430 228 440 238&#10;           C 448 245 462 250 475 252 Z" fill="#00f0ff" opacity="0.06" style="fill:rgb(0, 240, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.06;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Doigts digitaux repliés (wireframe) -->
+  <path d="M 470 242 C 465 234 462 226 462 220 C 462 216 464 213 466 213 C 468 213 470 216 470 222 Z" fill="none" stroke="#00f0ff" stroke-width="0.7" opacity="0.6" style="fill:none;stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.7px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M 458 238 C 454 230 452 222 452 216 C 452 212 454 209 456 209 C 458 209 460 212 460 217 Z" fill="none" stroke="#00f0ff" stroke-width="0.7" opacity="0.6" style="fill:none;stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.7px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M 447 232 C 444 224 443 216 443 210 C 443 206 445 204 447 204 C 449 204 450 207 450 212 Z" fill="none" stroke="#00f0ff" stroke-width="0.7" opacity="0.6" style="fill:none;stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.7px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Index droit tendu vers le centre -->
+  <path d="M 439 196 C 420 194 390 191 370 189 C 355 188 345 188 340 188" fill="none" stroke="#00c8d4" stroke-width="9" stroke-linecap="round" opacity="0.15" style="fill:none;stroke:rgb(0, 200, 212);color:rgb(255, 255, 255);stroke-width:9px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.15;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M 439 196 C 420 194 390 191 370 189 C 355 188 345 188 340 188" fill="none" stroke="#00f0ff" stroke-width="1.1" stroke-linecap="round" opacity="0.9" style="fill:none;stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:1.1px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Grille circuits sur l'avant-bras digital -->
+  <line x1="530" y1="252" x2="545" y2="252" stroke="#00f0ff" stroke-width="0.4" opacity="0.35" style="fill:rgb(0, 0, 0);stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="537" y1="246" x2="537" y2="258" stroke="#00f0ff" stroke-width="0.4" opacity="0.35" style="fill:rgb(0, 0, 0);stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="510" y1="256" x2="525" y2="256" stroke="#00f0ff" stroke-width="0.4" opacity="0.3" style="fill:rgb(0, 0, 0);stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="517" y1="250" x2="517" y2="262" stroke="#00f0ff" stroke-width="0.4" opacity="0.3" style="fill:rgb(0, 0, 0);stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="537" cy="252" r="2" fill="none" stroke="#00f0ff" stroke-width="0.5" opacity="0.5" style="fill:none;stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="517" cy="256" r="2" fill="none" stroke="#7000ff" stroke-width="0.5" opacity="0.5" style="fill:none;stroke:rgb(112, 0, 255);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Nœuds de données sur le bras digital -->
+  <circle cx="580" cy="268" r="3" fill="none" stroke="#00f0ff" stroke-width="0.7" opacity="0.5" style="fill:none;stroke:rgb(0, 240, 255);color:rgb(255, 255, 255);stroke-width:0.7px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="560" cy="261" r="2" fill="#7000ff" opacity="0.4" style="fill:rgb(112, 0, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="540" cy="254" r="2" fill="#00f0ff" opacity="0.4" style="fill:rgb(0, 240, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ═══ INSCRIPTION latine en arc ═══ -->
+  <!-- Texte en arc approximé avec tspans sur chemin simplifié -->
+  <text text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#c8a84b" opacity="0.55" letter-spacing="2" style="fill:rgb(200, 168, 75);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:Georgia, serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">
+    <textPath href="#arcText" style="fill:rgb(200, 168, 75);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">DIGITUS · DEI · ET · MACHINAE</textPath>
+  </text>
+  <defs>
+    <path id="arcText" d="M 120 360 Q 340 318 560 360"/>
+  </defs>
+
+</g>
+<!-- ═══ FIN CONTENU CLIPÉ ═══ -->
+
+<!-- ═══ CADRE ORNEMENTAL — coins et filets ═══ -->
+<!-- Coins en feuilles d'or -->
+<g fill="url(#frameG)" opacity="0.9" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+  <polygon points="18,10  38,10  18,30" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="644,10 662,10 662,30" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="18,420 18,400 38,420" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="644,420 662,420 662,400" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</g>
+<!-- Rosettes de coin -->
+<circle cx="18" cy="10" r="5" fill="url(#frameG)" stroke="#8b6914" stroke-width="0.5" style="stroke:rgb(139, 105, 20);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="662" cy="10" r="5" fill="url(#frameG)" stroke="#8b6914" stroke-width="0.5" style="stroke:rgb(139, 105, 20);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="18" cy="420" r="5" fill="url(#frameG)" stroke="#8b6914" stroke-width="0.5" style="stroke:rgb(139, 105, 20);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="662" cy="420" r="5" fill="url(#frameG)" stroke="#8b6914" stroke-width="0.5" style="stroke:rgb(139, 105, 20);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- ═══ ZONE LOGOTYPE sous le tableau ═══ -->
+<rect x="18" y="424" width="644" height="50" rx="0" fill="#07070e" style="fill:rgb(7, 7, 14);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="18" y="424" width="644" height="1" fill="url(#glowC)" opacity="0.6" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Logotype Digital.AI centré -->
+<text x="310" y="456" text-anchor="end" font-family="'Syne','Space Grotesk','Helvetica Neue',sans-serif" font-size="22" font-weight="700" letter-spacing="-0.5" fill="#dde1ec" style="fill:rgb(221, 225, 236);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Syne, &quot;Space Grotesk&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:22px;font-weight:700;text-anchor:end;dominant-baseline:auto">Digital</text>
+<text x="315" y="456" text-anchor="start" font-family="'Syne','Space Grotesk','Helvetica Neue',sans-serif" font-size="22" font-weight="700" letter-spacing="-0.5" fill="url(#glowC)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Syne, &quot;Space Grotesk&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:22px;font-weight:700;text-anchor:start;dominant-baseline:auto">.AI</text>
+
+<!-- Tiret séparateur -->
+<line x1="220" y1="463" x2="305" y2="463" stroke="#c8a84b" stroke-width="0.5" opacity="0.5" style="fill:rgb(0, 0, 0);stroke:rgb(200, 168, 75);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<line x1="375" y1="463" x2="460" y2="463" stroke="#c8a84b" stroke-width="0.5" opacity="0.5" style="fill:rgb(0, 0, 0);stroke:rgb(200, 168, 75);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Sous-titre -->
+<text x="340" y="467" text-anchor="middle" font-family="'DM Sans','Helvetica Neue',sans-serif" font-size="8.5" font-weight="400" letter-spacing="3.5" fill="#8892a4" opacity="0.7" style="fill:rgb(136, 146, 164);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;DM Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:8.5px;font-weight:400;text-anchor:middle;dominant-baseline:auto">M · A  ·  CONSEIL &amp; STRATÉGIE DIGITALE</text>
+
+</svg>

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consultant freelance en marketing digital, e-commerce et intelligence artificielle. Accompagnement stratégique et automatisation pour propulser votre croissance.">
+    <title>Consultant Marketing Digital, E-commerce & IA</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =====================
+         NAVIGATION
+    ===================== -->
+    <header>
+        <nav id="navbar">
+            <a href="#accueil" class="logo logo-img" aria-label="Digital.AI — Accueil">
+                <img src="logo_tableau_michelange_ia.svg" alt="Michel-ange logo" height="48" width="auto" style="display:block;">
+            </a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#accueil"     data-i18n="nav-home">Accueil</a></li>
+                <li><a href="#a-propos"    data-i18n="nav-about">À propos</a></li>
+                <li><a href="#experiences"  data-i18n="nav-exp">Expériences</a></li>
+                <li><a href="#competences" data-i18n="nav-skills">Compétences</a></li>
+                <li><a href="#lab-ia"      data-i18n="nav-lab">Lab IA</a></li>
+                <li><a href="#portfolio"   data-i18n="nav-portfolio">Portfolio</a></li>
+                <li><a href="#blog"        data-i18n="nav-blog">Blog</a></li>
+                <li><a href="#contact"     data-i18n="nav-contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Bouton de traduction FR/EN -->
+                <button id="lang-btn" aria-label="Changer la langue">
+                    🌍 <span id="current-lang">FR</span>
+                </button>
+
+                <!-- Hamburger mobile -->
+                <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- =====================
+             HERO / ACCUEIL
+        ===================== -->
+        <section id="accueil">
+            <canvas id="particles-js"></canvas>
+            <div class="hero-content">
+                <!-- Remplacez l'URL par votre photo -->
+                <img src="michelange.png" alt="Portrait du Consultant Digital" class="profile-pic">
+                <h1 data-i18n="hero-title">Consultant Marketing Digital & IA</h1>
+                <p data-i18n="hero-desc">Je conseille et accompagne les entreprises en marketing digital pour transformer leurs besoins en solutions concrètes, automatisées et mesurables.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn-primary" data-i18n="hero-cta-main">Démarrer un projet</a>
+                    <a href="#portfolio" class="btn-outline" data-i18n="hero-cta-secondary">Voir mes projets</a>
+                </div>
+            </div>
+            <!-- Indicateur de scroll -->
+            <div class="scroll-indicator" aria-hidden="true">
+                <div class="scroll-dot"></div>
+            </div>
+        </section>
+
+        <!-- =====================
+             À PROPOS & EXPERTISES
+        ===================== -->
+        <section id="a-propos">
+            <h2 class="section-title" data-i18n="about-section-title">À Propos & Expertises</h2>
+
+            <div class="about-container">
+                <img src="business.jpeg"
+                     alt="Data & Tech workspace"
+                     class="about-img"
+                     loading="lazy">
+                <div class="about-text">
+                    <h2 class="text-primary" data-i18n="about-title">Consultant Marketing Digital et E-commerce</h2>
+                    <p data-i18n="about-p1">Depuis toujours fasciné par les innovations et les interactions en ligne, j’ai naturellement été attiré par l’univers du digital et de l’e-commerce. Pour moi, ce domaine se trouve à la croisée parfaite entre la psychologie humaine (comprendre le client) et l'innovation technologique.
+
+Ce qui me passionne, c’est de comprendre comment créer des expériences uniques, capter l’attention des clients et transformer cette interaction en valeur concrète. Aujourd'hui, l'arrivée de l'Intelligence Artificielle change la donne : elle nous permet d'aller encore plus loin en hyper-personnalisant les parcours d'achat et en analysant les données à une vitesse fulgurante.
+
+Chaque projet est ainsi l’occasion d’allier créativité, stratégie et analyse pour optimiser la présence en ligne, décupler les performances et générer des résultats tangibles. En clair, le digital me permet d’associer ma curiosité à une approche concrète pour produire un impact réel.</p>
+                    <br>
+                    <p data-i18n="about-p2">Mon objectif ? Vous aider à naviguer dans ce paysage complexe pour générer de la croissance tangible. Que ce soit par l'automatisation, la stratégie ou la création pure.</p>
+                </div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-code" aria-hidden="true"></i>
+                    <h3 data-i18n="service-web-title">Développement Web</h3>
+                    <p data-i18n="service-web-desc">Création de sites vitrines et e-commerce optimisés pour la conversion et l'UX.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>
+                    <h3 data-i18n="service-seo-title">SEO / SEA</h3>
+                    <p data-i18n="service-seo-desc">Acquisition de trafic qualifié via le référencement naturel et les campagnes Ads.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-hashtag" aria-hidden="true"></i>
+                    <h3 data-i18n="service-social-title">Social Media</h3>
+                    <p data-i18n="service-social-desc">Stratégie d'engagement et gestion de communautés sur les réseaux sociaux.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-pen-nib" aria-hidden="true"></i>
+                    <h3 data-i18n="service-content-title">Création de contenus</h3>
+                    <p data-i18n="service-content-desc">Copywriting et visuels percutants pour raconter l'histoire de votre marque.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-robot" aria-hidden="true"></i>
+                    <h3 data-i18n="service-ia-title">Stratégie IA</h3>
+                    <p data-i18n="service-ia-desc">Intégration d'outils IA pour automatiser vos process marketing et e-commerce.</p>
+                </div>
+            </div>
+        </section>
+
+                <!-- =====================
+             EXPÉRIENCES / TIMELINE
+             RÈGLE : chaque timeline-item doit avoir une clé data-i18n UNIQUE
+             définie dans script.js (FR + EN). Ne jamais réutiliser la même clé.
+        ===================== -->
+        <section id="experiences">
+            <h2 class="section-title" data-i18n="exp-section-title">Parcours &amp; Expériences</h2>
+            <div class="timeline">
+
+                <!-- Exp 1 — clés : exp-1-title / exp-1-desc -->
+                <div class="timeline-item">
+                    <h3 data-i18n="exp-1-title">Consultant Digital Freelance <span>(2023 - Présent)</span></h3>
+                    <p data-i18n="exp-1-desc">Je définis et déploie des stratégies digitales globales centrées sur l'acquisition, la conversion et la fidélisation. À travers la gestion de sites (WordPress & Shopify) et le pilotage de campagnes Google et Meta Ads, j'optimise en continu les performances publicitaires (ROAS, CPC). Mon approche repose sur l'analyse précise des KPI via GA4 et une veille concurrentielle active pour identifier et activer de nouveaux leviers de croissance.</p>
+                </div>
+
+                <!-- Exp 2 — clés : exp-2-title / exp-2-desc -->
+                <div class="timeline-item">
+                    <h3 data-i18n="exp-2-title">Chargé d'e-merchandising <span>(2022 - 2023)</span></h3>
+                    <p data-i18n="exp-2-desc">Responsable du pilotage et de l'optimisation des ventes en ligne sur le marché français pour les secteurs de la mode, du sport et de la beauté. Je gère l'animation commerciale de A à Z — de la mise en valeur visuelle et technique des produits à la fluidité du parcours client — tout en analysant les données pour maximiser les conversions. En collaboration avec les équipes internationales, je pilote le planning et les prix pour garantir la cohérence des marques et l'atteinte des objectifs business.</p>
+                </div>
+
+                <!-- Exp 3 — clés propres : exp-2b-title / exp-2b-desc -->
+                <div class="timeline-item">
+                    <h3 data-i18n="exp-2b-title">Chargé de marketing digital <span>(2019 - 2022)</span></h3>
+                    <p data-i18n="exp-2b-desc">Responsable de la gestion et du développement des sites WordPress, je crée des campagnes marketing multicanales axées sur la performance. Je pilote les budgets publicitaires (SEA/PPC) et l'optimisation SEO (SEMrush, Ahrefs) pour booster la visibilité de l'entreprise. En m'appuyant sur l'analyse des KPI (GA4) et la gestion de la e-réputation, je garantis une croissance continue du trafic et des conversions.</p>
+                </div>
+
+                <!-- Diplômes — clés : exp-3-title / exp-3-desc -->
+                <div class="timeline-item">
+                    <h3 data-i18n="exp-3-title">Diplômes &amp; Certifications</h3>
+                    <p data-i18n="exp-3-desc">• Master 2 Stratégie Digitale &amp; E-commerce (École de Commerce)<br>• Bachelor Webmarketing<br>• BTS CGO<br>• Certification Google Analytics &amp; Google Ads<br>• Formation intensive : "Prompt Engineering et IA appliqués au Marketing"</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =====================
+             COMPÉTENCES
+        ===================== -->
+        <section id="competences">
+            <h2 class="section-title" data-i18n="skills-section-title">Compétences</h2>
+            <p class="section-subtitle" data-i18n="skills-subtitle">Un spectre complet de savoir-faire au service de votre croissance digitale — de la stratégie à l'exécution.</p>
+
+            <!-- Onglets de catégories -->
+            <div class="skills-tabs" role="tablist" aria-label="Catégories de compétences">
+                <button class="skills-tab active" role="tab" aria-selected="true"  data-tab="acquisition" data-i18n="skills-tab-acq">Acquisition</button>
+                <button class="skills-tab"        role="tab" aria-selected="false" data-tab="ecommerce"   data-i18n="skills-tab-eco">E-commerce</button>
+                <button class="skills-tab"        role="tab" aria-selected="false" data-tab="ia"          data-i18n="skills-tab-ia">IA & Data</button>
+                <button class="skills-tab"        role="tab" aria-selected="false" data-tab="creation"    data-i18n="skills-tab-crea">Création</button>
+                <button class="skills-tab"        role="tab" aria-selected="false" data-tab="strategy"    data-i18n="skills-tab-strat">Stratégie</button>
+            </div>
+
+            <!-- Panneaux de compétences -->
+            <div class="skills-panels">
+
+                <!-- ACQUISITION -->
+                <div class="skills-panel active" data-panel="acquisition">
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fa-brands fa-google" aria-hidden="true"></i>
+                                <span data-i18n="skill-gads-title">Google Ads</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="--pct:92%"></div></div>
+                            <p data-i18n="skill-gads-desc">Search, Shopping, Performance Max — gestion de budgets jusqu'à 50K€/mois avec optimisation ROAS continue.</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fa-brands fa-meta" aria-hidden="true"></i>
+                                <span data-i18n="skill-meta-title">Meta Ads</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div>
+                            <p data-i18n="skill-meta-desc">Campagnes Facebook & Instagram : acquisition, retargeting, lookalike audiences et A/B testing créatifs.</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                                <span data-i18n="skill-seo-title">SEO Technique</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div>
+                            <p data-i18n="skill-seo-desc">Audit technique, stratégie de maillage, Core Web Vitals, structured data et cocons sémantiques.</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fa-solid fa-envelope-open-text" aria-hidden="true"></i>
+                                <span data-i18n="skill-email-title">Email Marketing</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div>
+                            <p data-i18n="skill-email-desc">Segmentation, automation Klaviyo/Brevo, A/B test objet et optimisation du taux d'ouverture & de clic.</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                                <span data-i18n="skill-linkedin-title">LinkedIn Ads</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="--pct:72%"></div></div>
+                            <p data-i18n="skill-linkedin-desc">Lead gen B2B, Sponsored Content et InMail campaigns pour des audiences professionnelles ciblées.</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                                <span data-i18n="skill-analytics-title">Analytics & Tracking</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div>
+                            <p data-i18n="skill-analytics-desc">GA4, GTM, Looker Studio — mise en place de dashboards de performance et suivi des KPIs d'acquisition.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-COMMERCE -->
+                <div class="skills-panel" data-panel="ecommerce">
+                    <div class="skills-grid">
+                        <div class="skill-item"><div class="skill-header"><i class="fa-brands fa-shopify" aria-hidden="true"></i><span data-i18n="skill-shopify-title">Shopify</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:93%"></div></div><p data-i18n="skill-shopify-desc">Création et refonte de boutiques, personnalisation Liquid, apps clés, optimisation du tunnel d'achat.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-brands fa-wordpress" aria-hidden="true"></i><span data-i18n="skill-woo-title">WooCommerce</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div><p data-i18n="skill-woo-desc">Configuration avancée, extensions de performance, checkout optimisé et intégrations de paiement.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-arrows-split-up-and-left" aria-hidden="true"></i><span data-i18n="skill-cro-title">CRO & A/B Testing</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:87%"></div></div><p data-i18n="skill-cro-desc">Optimisation du taux de conversion : heatmaps, tests multivariés, UX friction audit et quick wins.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-boxes-stacked" aria-hidden="true"></i><span data-i18n="skill-flux-title">Gestion Produit & Flux</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:78%"></div></div><p data-i18n="skill-flux-desc">Optimisation des fiches produits, gestion des flux Google Merchant, Channable et marketplaces.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-rotate" aria-hidden="true"></i><span data-i18n="skill-autoeco-title">Marketing Automation</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:84%"></div></div><p data-i18n="skill-autoeco-desc">Scénarios post-achat, relance de paniers abandonnés, cross-sell/up-sell automatisés via Klaviyo.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><span data-i18n="skill-ux-title">UX / Expérience Client</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:82%"></div></div><p data-i18n="skill-ux-desc">Parcours d'achat frictionless, social proof, avis clients et personnalisation dynamique du contenu.</p></div>
+                    </div>
+                </div>
+
+                <!-- IA & DATA -->
+                <div class="skills-panel" data-panel="ia">
+                    <div class="skills-grid">
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i><span data-i18n="skill-prompt-title">Prompt Engineering</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:95%"></div></div><p data-i18n="skill-prompt-desc">Conception de prompts avancés pour GPT-4o, Claude, Gemini — appliqués à la production de contenu et à l'analyse.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i><span data-i18n="skill-workflow-title">Workflows IA (n8n / Zapier)</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div><p data-i18n="skill-workflow-desc">Automatisation de pipelines marketing complets : génération de contenu, enrichissement CRM, reporting auto.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-database" aria-hidden="true"></i><span data-i18n="skill-data-title">Data Analyse</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div><p data-i18n="skill-data-desc">Extraction et visualisation de données (BigQuery, Looker Studio), segmentation client et analyse prédictive.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-headset" aria-hidden="true"></i><span data-i18n="skill-chatbot-title">Chatbots RAG</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:76%"></div></div><p data-i18n="skill-chatbot-desc">Déploiement d'assistants virtuels connectés à une base de connaissances (LangChain, Flowise, OpenAI).</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-image" aria-hidden="true"></i><span data-i18n="skill-imgia-title">IA Générative (Image)</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:83%"></div></div><p data-i18n="skill-imgia-desc">Midjourney, DALL·E, Stable Diffusion — visuels produits, bannières pub et UGC synthétiques.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-code" aria-hidden="true"></i><span data-i18n="skill-python-title">Python Marketing</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:68%"></div></div><p data-i18n="skill-python-desc">Scripts d'automatisation, scraping de données, analyse de SERP et reporting personnalisé.</p></div>
+                    </div>
+                </div>
+
+                <!-- CRÉATION -->
+                <div class="skills-panel" data-panel="creation">
+                    <div class="skills-grid">
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-pen-nib" aria-hidden="true"></i><span data-i18n="skill-copy-title">Copywriting</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div><p data-i18n="skill-copy-desc">Rédaction persuasive : landing pages, fiches produits, ads copy, newsletters et scripts vidéo orientés conversion.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-brands fa-figma" aria-hidden="true"></i><span data-i18n="skill-figma-title">UI / Figma</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div><p data-i18n="skill-figma-desc">Maquettage de pages et d'interfaces, design de bannières publicitaires et assets réseaux sociaux.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-hashtag" aria-hidden="true"></i><span data-i18n="skill-social-title">Social Media Content</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div><p data-i18n="skill-social-desc">Calendrier éditorial, formats courts (Reels, TikTok, Shorts), storytelling de marque et UGC.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-video" aria-hidden="true"></i><span data-i18n="skill-video-title">Video Marketing</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:70%"></div></div><p data-i18n="skill-video-desc">Stratégie YouTube, montage avec IA (Opus Clip, CapCut), sous-titrages automatisés et optimisation thumbnail.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-code" aria-hidden="true"></i><span data-i18n="skill-web-title">Intégration Web</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:78%"></div></div><p data-i18n="skill-web-desc">HTML/CSS/JS, intégration de templates, landing pages Webflow et personnalisation de thèmes Shopify/WP.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i><span data-i18n="skill-brand-title">Brand Content</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:82%"></div></div><p data-i18n="skill-brand-desc">Charte éditoriale, identité de ton, livres blancs, études de cas et contenus thought leadership.</p></div>
+                    </div>
+                </div>
+
+                <!-- STRATÉGIE -->
+                <div class="skills-panel" data-panel="strategy">
+                    <div class="skills-grid">
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-map" aria-hidden="true"></i><span data-i18n="skill-strat-title">Stratégie Digitale</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:92%"></div></div><p data-i18n="skill-strat-desc">Audit 360°, définition des objectifs SMART, plan d'action multicanal et priorisation des leviers de croissance.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-users" aria-hidden="true"></i><span data-i18n="skill-growth-title">Growth Hacking</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:82%"></div></div><p data-i18n="skill-growth-desc">Identification de boucles de croissance, tests rapides (AARRR), optimisation du funnel et activation des early adopters.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i><span data-i18n="skill-coach-title">Conseil & Formation</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div><p data-i18n="skill-coach-desc">Formations équipes marketing, ateliers IA, audits de maturité digitale et recommandations stratégiques.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-handshake" aria-hidden="true"></i><span data-i18n="skill-pm-title">Gestion de projet</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div><p data-i18n="skill-pm-desc">Pilotage en méthode agile (Notion, Trello, Linear), coordination de prestataires et respect des jalons.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-magnifying-glass-dollar" aria-hidden="true"></i><span data-i18n="skill-bench-title">Analyse Concurrentielle</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div><p data-i18n="skill-bench-desc">Benchmarks sectoriels, veille concurrentielle outillée (SEMrush, SimilarWeb) et positionnement différenciant.</p></div>
+                        <div class="skill-item"><div class="skill-header"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i><span data-i18n="skill-kpi-title">KPIs & Reporting</span></div><div class="skill-bar"><div class="skill-fill" style="--pct:91%"></div></div><p data-i18n="skill-kpi-desc">Construction de tableaux de bord sur-mesure, suivi ROI, communication des résultats aux décideurs.</p></div>
+                    </div>
+                </div>
+
+            </div><!-- /skills-panels -->
+
+            <!-- Outils maîtrisés -->
+            <div class="tools-strip">
+                <p class="tools-label" data-i18n="skills-tools-label">Outils maîtrisés</p>
+                <div class="tools-logos">
+                    <span>Google Ads</span><span>Meta Ads</span><span>Shopify</span>
+                    <span>Klaviyo</span><span>GA4 / GTM</span><span>SEMrush</span>
+                    <span>Figma</span><span>Notion</span><span>n8n</span>
+                    <span>OpenAI API</span><span>Midjourney</span><span>Looker Studio</span>
+                    <span>WooCommerce</span><span>Webflow</span><span>Zapier</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="lab-ia" class="lab-section">
+            <h2 class="section-title" data-i18n="lab-section-title">Lab IA : Mes Expérimentations</h2>
+            <p class="section-subtitle" data-i18n="lab-subtitle">Une veille technologique ne vaut que si elle est mise en pratique. Découvrez mes derniers workflows et tests d'outils IA pour optimiser le quotidien des e-commerçants.</p>
+
+            <!-- GRILLE PRINCIPALE — 6 projets -->
+            <div class="lab-grid">
+
+                <div class="lab-card lab-card--featured">
+                    <div class="lab-card-header">
+                        <span class="lab-badge lab-badge--green">Actif</span>
+                        <span class="lab-tools">GPT-4o · Zapier · WordPress</span>
+                    </div>
+                    <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+                    <h3 data-i18n="lab-1-title">Rédaction SEO auto avec GPT-4o</h3>
+                    <p data-i18n="lab-1-desc">Workflow Zapier couplant Google Sheets, l'API OpenAI et WordPress pour générer des cocons sémantiques complets. Gain : 15h par semaine.</p>
+                    <div class="lab-metric"><span class="lab-metric-value">−15h</span><span class="lab-metric-label">/ semaine</span></div>
+                </div>
+
+                <div class="lab-card lab-card--featured">
+                    <div class="lab-card-header">
+                        <span class="lab-badge lab-badge--green">Actif</span>
+                        <span class="lab-tools">LangChain · Flowise · Shopify</span>
+                    </div>
+                    <i class="fa-solid fa-headset" aria-hidden="true"></i>
+                    <h3 data-i18n="lab-3-title">Chatbot RAG E-commerce</h3>
+                    <p data-i18n="lab-3-desc">Assistant virtuel entraîné sur la base de connaissances d'une boutique Shopify. Taux de résolution : 65%.</p>
+                    <div class="lab-metric"><span class="lab-metric-value">65%</span><span class="lab-metric-label">résolution auto</span></div>
+                </div>
+
+                <div class="lab-card">
+                    <div class="lab-card-header">
+                        <span class="lab-badge lab-badge--blue">En cours</span>
+                        <span class="lab-tools">n8n · Claude · Notion</span>
+                    </div>
+                    <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+                    <h3>Pipeline CRM IA</h3>
+                    <p>Enrichissement automatique des leads entrants : scoring, catégorisation et création de fiches Notion via Claude + n8n. Aucune intervention manuelle.</p>
+                    <div class="lab-metric"><span class="lab-metric-value">+3h</span><span class="lab-metric-label">récupérées / jour</span></div>
+                </div>
+
+                <div class="lab-card">
+                    <div class="lab-card-header">
+                        <span class="lab-badge lab-badge--blue">En cours</span>
+                        <span class="lab-tools">Midjourney · DALL·E · Canva AI</span>
+                    </div>
+                    <i class="fa-solid fa-image" aria-hidden="true"></i>
+                    <h3 data-i18n="lab-2-title">Packshots IA sans studio</h3>
+                    <p data-i18n="lab-2-desc">Détourage de photos amateurs et génération de décors studio ultra-réalistes avec IA générative pour des fiches produits optimisées.</p>
+                    <div class="lab-metric"><span class="lab-metric-value">−80%</span><span class="lab-metric-label">coût shooting</span></div>
+                </div>
+
+                <div class="lab-card">
+                    <div class="lab-card-header">
+                        <span class="lab-badge lab-badge--amber">Expérimental</span>
+                        <span class="lab-tools">Perplexity · Claude · GSC</span>
+                    </div>
+                    <i class="fa-solid fa-robot" aria-hidden="true"></i>
+                    <h3>Veille GEO automatisée</h3>
+                    <p>Script Python qui détecte chaque semaine les requêtes où un client apparaît — ou pas — dans les AI Overviews de Google, et génère un rapport actionnable.</p>
+                    <div class="lab-metric"><span class="lab-metric-value">100%</span><span class="lab-metric-label">automatisé</span></div>
+                </div>
+
+                <div class="lab-card">
+                    <div class="lab-card-header">
+                        <span class="lab-badge lab-badge--amber">Expérimental</span>
+                        <span class="lab-tools">Claude Code · Composio · API</span>
+                    </div>
+                    <i class="fa-solid fa-code" aria-hidden="true"></i>
+                    <h3>Agent Marketing Autonome</h3>
+                    <p>Agent IA capable de créer une campagne Meta de A à Z : brief → visuels → copy → paramétrage compte publicitaire via Composio. En phase de test.</p>
+                    <div class="lab-metric"><span class="lab-metric-value">Beta</span><span class="lab-metric-label">en cours de test</span></div>
+                </div>
+
+            </div><!-- /lab-grid -->
+
+            <!-- BARRE D'OUTILS IA MAÎTRISÉS -->
+            <div class="lab-stack">
+                <p class="tools-label">Stack IA utilisé</p>
+                <div class="tools-logos">
+                    <span>GPT-4o</span><span>Claude</span><span>Gemini</span>
+                    <span>Midjourney</span><span>DALL·E</span><span>Stable Diffusion</span>
+                    <span>n8n</span><span>Zapier</span><span>LangChain</span>
+                    <span>Flowise</span><span>Composio</span><span>Perplexity</span>
+                    <span>Cursor</span><span>Claude Code</span><span>Opus Clip</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- =====================
+             PORTFOLIO
+        ===================== -->
+        <section id="portfolio">
+            <h2 class="section-title" data-i18n="portfolio-section-title">Portfolio de Projets</h2>
+
+            <!-- FILTRES PAR CATÉGORIE -->
+            <div class="portfolio-filters" role="tablist" aria-label="Filtres portfolio">
+                <button class="pf-filter active" data-filter="all" role="tab" aria-selected="true">Tous</button>
+                <button class="pf-filter" data-filter="ecommerce" role="tab" aria-selected="false">E-commerce</button>
+                <button class="pf-filter" data-filter="analytics" role="tab" aria-selected="false">Analytics &amp; Reporting</button>
+                <button class="pf-filter" data-filter="ads" role="tab" aria-selected="false">Acquisition</button>
+            </div>
+
+            <!-- CAROUSEL DÉFILANT AUTOMATIQUE -->
+            <div class="portfolio-carousel-wrapper" aria-label="Carousel de projets">
+                <div class="portfolio-track" id="portfolio-track">
+
+                    <!-- ── E-COMMERCE ── -->
+                    <div class="portfolio-slide" data-cat="ecommerce">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
+                             alt="Dashboard analytics e-commerce" loading="lazy">
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag">E-commerce</span>
+                            <h3 data-i18n="portfolio-1">Refonte UX E-commerce</h3>
+                            <p>Refonte Shopify mobile-first avec A/B testing. +150% de conversion.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-slide" data-cat="ads">
+                        <img src="dashboard.png"
+                             alt="Campagne marketing sur écran" loading="lazy">
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag">Acquisition</span>
+                            <h3 data-i18n="portfolio-2">Campagne d'Acquisition IA</h3>
+                            <p>Stratégie Meta + Google avec créatifs générés par IA. ROAS 5,4×.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-slide" data-cat="ads">
+                        <img src="strategiesocialmediab2b.png" loading="lazy">
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag">Social Media</span>
+                            <h3 data-i18n="portfolio-3">Stratégie Social Media B2B</h3>
+                            <p>Content strategy LinkedIn + automation. ×4 leads organiques en 3 mois.</p>
+                        </div>
+                    </div>
+
+                    <!-- ── ANALYTICS & REPORTING ── -->
+                    <div class="portfolio-slide" data-cat="analytics">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+                             alt="Dashboard Power BI données marketing" loading="lazy">
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag portfolio-tag--analytics">Analytics</span>
+                            <h3>Dashboard Power BI — E-commerce</h3>
+                            <p>Rapport consolidé : ventes, stock, coûts ads et marge nette en temps réel. Connecté Shopify + Google Ads + Meta Ads.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-slide" data-cat="analytics">
+                        <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=600&q=80"
+                             alt="Graphique de croissance Looker Studio" loading="lazy">
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag portfolio-tag--analytics">Reporting</span>
+                            <h3>Looker Studio — Acquisition 360°</h3>
+                            <p>Dashboard client automatisé : SEO, SEA, Social et email sur une seule vue. Alertes hebdomadaires par email.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-slide" data-cat="analytics">
+                        <img src="https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?auto=format&fit=crop&w=600&q=80"
+                             alt="Dashboard GA4 avec entonnoirs de conversion" loading="lazy">
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag portfolio-tag--analytics">GA4</span>
+                            <h3>Audit &amp; Setup GA4 Avancé</h3>
+                            <p>Migration UA → GA4 avec événements personnalisés, entonnoirs e-commerce, segments d'audiences et connexion BigQuery.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-slide" data-cat="analytics">
+                        <img src="https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=600&q=80"
+                             alt="Tableau de bord KPIs marketing" loading="lazy">
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag portfolio-tag--analytics">Automation</span>
+                            <h3>Reporting Automatisé — Google Sheets + n8n</h3>
+                            <p>Pipeline de données hebdomadaire : extraction API → transformation → rapport Google Sheets envoyé par email chaque lundi à 8h.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-slide" data-cat="analytics">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80"
+                             alt="Analyse des données clients" loading="lazy">
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag portfolio-tag--analytics">BI</span>
+                            <h3>Analyse Cohortes &amp; LTV Clients</h3>
+                            <p>Modèle de rétention et calcul LTV sur 12 mois via BigQuery + Looker Studio. Identification des segments à fort potentiel.</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-slide" data-cat="ecommerce">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=600&q=80"
+                             alt="Site e-commerce sur mobile" loading="lazy">
+                        <div class="portfolio-info">
+                            <span class="portfolio-tag">E-commerce</span>
+                            <h3>Migration WooCommerce → Shopify</h3>
+                            <p>Migration complète avec conservation du SEO, refonte des fiches produits et setup Klaviyo. Zéro perte de trafic.</p>
+                        </div>
+                    </div>
+
+                </div><!-- /portfolio-track -->
+
+                <!-- Contrôles -->
+                <button class="carousel-btn carousel-btn--prev" id="carousel-prev" aria-label="Projet précédent">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn carousel-btn--next" id="carousel-next" aria-label="Projet suivant">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+
+                <!-- Indicateurs de pause -->
+                <div class="carousel-controls">
+                    <button class="carousel-pause" id="carousel-pause" aria-label="Pause/Lecture du carousel">
+                        <i class="fa-solid fa-pause" id="pause-icon"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Pagination points -->
+            <div class="carousel-dots" id="carousel-dots" aria-label="Navigation carousel" role="tablist"></div>
+
+        </section>
+
+        <!-- =====================
+             BLOG
+        ===================== -->
+        <section id="blog">
+            <h2 class="section-title" data-i18n="blog-section-title">Derniers Articles</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <img src="illustration L'IA au service du SEO.png"
+                         alt="Code informatique avec référence à l'IA"
+                         loading="lazy">
+                    <div class="blog-content">
+                        <h3 data-i18n="blog-1-title">L'IA au service du SEO en 2026</h3>
+                        <p data-i18n="blog-1-desc">Découvrez comment les LLM modifient la façon dont nous créons du contenu optimisé pour les moteurs de recherche sans perdre l'authenticité.</p>
+                        <a href="blog-ia-seo-2026.html" class="read-more" aria-label="Lire l'article sur l'IA et le SEO" data-i18n="blog-read-more">Lire l'article &rarr;</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=500&q=80"
+                         alt="Espace de travail agile"
+                         loading="lazy">
+                    <div class="blog-content">
+                        <h3 data-i18n="blog-2-title">Ma méthodologie Freelance</h3>
+                        <p data-i18n="blog-2-desc">De la prise de brief à la livraison finale : plongée dans mon processus de travail transparent et agile pour garantir la réussite de vos projets web.</p>
+                        <a href="blog-methodologie-freelance.html" class="read-more" aria-label="Lire l'article sur la méthodologie" data-i18n="blog-read-more">Lire l'article &rarr;</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=500&q=80"
+                         alt="Graphique d'analyse de données montrant une croissance"
+                         loading="lazy">
+                    <div class="blog-content">
+                        <h3 data-i18n="blog-3-title">Étude de cas : +150% de conversion</h3>
+                        <p data-i18n="blog-3-desc">Analyse détaillée d'une refonte e-commerce couplée à une stratégie de reciblage publicitaire performante pour une marque de prêt-à-porter.</p>
+                        <a href="blog-etude-cas-conversion.html" class="read-more" aria-label="Lire l'étude de cas sur la conversion" data-i18n="blog-read-more">Lire l'article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+             CONTACT
+        ===================== -->
+        <section id="contact">
+            <h2 class="section-title" data-i18n="contact-section-title">Discutons de votre projet</h2>
+            <div class="contact-container">
+                <div class="contact-text">
+                    <h2 class="text-primary" data-i18n="contact-title">Prêt à innover ?</h2>
+                    <p data-i18n="contact-p1">Que vous soyez une jeune startup , une entreprise ou un e-commerçant ayant des projets dans le digital, je suis à votre écoute.</p>
+                    <br>
+                    <p data-i18n="contact-p2">Remplissez ce formulaire pour me parler de vos objectifs. Nous planifierons un appel stratégique de 30 minutes, sans engagement, pour voir comment mes compétences peuvent servir votre vision.</p>
+                </div>
+
+                <!-- Formulaire avec gestion des états (envoi / succès / erreur) -->
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name" data-i18n="form-name-label">Nom complet</label>
+                        <input type="text" id="name" name="name" placeholder="Jean Dupont" required autocomplete="name">
+                        <span class="field-error" id="name-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" data-i18n="form-email-label">Adresse email</label>
+                        <input type="email" id="email" name="email" placeholder="jean@monentreprise.com" required autocomplete="email">
+                        <span class="field-error" id="email-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject" data-i18n="form-subject-label">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder="Refonte E-commerce, Stratégie IA..." autocomplete="off">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" data-i18n="form-message-label">Message</label>
+                        <textarea id="message" name="message" placeholder="Parlez-moi de votre besoin, de vos défis actuels..." required rows="5"></textarea>
+                        <span class="field-error" id="message-error"></span>
+                    </div>
+
+                    <button type="submit" id="submit-btn">
+                        <span id="btn-text" data-i18n="form-submit">Envoyer le message</span>
+                        <span id="btn-loader" class="btn-loader hidden" aria-hidden="true"></span>
+                    </button>
+
+                    <!-- Message de confirmation -->
+                    <div id="form-success" class="form-success hidden" role="alert" data-i18n="form-success-msg">
+                        ✅ Message envoyé ! Je vous réponds sous 24h.
+                    </div>
+                    <div id="form-error-msg" class="form-error-msg hidden" role="alert" data-i18n="form-error-msg">
+                        ❌ Une erreur est survenue. Veuillez réessayer.
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- =====================
+         FOOTER
+    ===================== -->
+    <footer>
+        <p>&copy; Copyright © 2025. Michel-ange M. — <span data-i18n="footer-rights">Tous droits réservés.</span></p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
